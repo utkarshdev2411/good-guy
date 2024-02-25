@@ -1,0 +1,31 @@
+.introduction {
+    color: #FFFFFF;
+    position: relative;
+    top: 100px;
+    left: 29%;
+}
+
+.heading {
+    font-family: Abhaya Libre ExtraBold;
+    font-size: 54px;
+    font-weight: 800;
+    line-height: 57px;
+    text-align: center;
+    width: 600px;
+    height: 171px;
+}
+
+.content {
+    font-family: Abhaya Libre Medium;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 534px;
+    height: 44px;
+    width: 35%;
+    position: relative;
+    left: 1.9%;
+
+}
