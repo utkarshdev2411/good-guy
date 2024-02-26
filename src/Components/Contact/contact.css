@@ -1,42 +1,101 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .contact {
-    display: flex;
-    margin-left: 8vw;
-    color: white;
-    margin-top: 6vh;
+  display: flex;
+  margin-left: 8vw;
+  color: white;
+  margin-top: 6vh;
+  margin-bottom: 8vh;
 
 }
 
 .c-left h1 {
-    font-size: 53px;
-    font-weight: 400;
-    line-height: 85px;
-    letter-spacing: 0.5px;
+  font-size: 53px;
+  font-weight: 400;
+  line-height: 85px;
+  letter-spacing: 0.5px;
 
-    text-decoration: underline 1.5px;
+  text-decoration: underline 1.5px;
 
 }
 
 .c-left h3 {
-    font-size: 21px;
-    font-weight: 400;
-    line-height: 38px;
-    letter-spacing: 0em;
-    text-align: left;
-    width: 85%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 85%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .c-left {
-    width: 40%;
-    margin-top: 18vh;
+  width: 40%;
+  margin-top: 18vh;
 
 }
 
 .c-right {
-    width: 50%;
+  width: 50%;
+}
+
+
+.fname {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding-right: 20px;
+  margin: 20px;
+  margin-left: -30px;
+  margin-bottom: 0;
+
+}
+
+.name {
+  display: flex;
+  width: 100%;
+
+}
+
+.fmail {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  width: 100%;
+  
+
+}
+.name input{
+  height: 34px;
+  width: 276px;}
+
+  
+.fmail input{
+  margin-top: 8px;
+}
+.fmail textarea{
+  margin-top: 8px;
+  height: 26vh;
+  width: 40vw;
+  border-radius: 6px;
+
+}
+.fmail label{
+  margin-top:28px;
+}
+
+
+label{
+  font-family:'Times New Roman', Times, serif;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+input{
+height: 34px;  
+width: 40vw;
+border-radius: 6px;
 }
