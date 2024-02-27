@@ -15,13 +15,30 @@
     margin-top: 25px;
 }
 
-.heading {
+
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(40px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .heading {
     font-size: 8vh;
     font-weight: 800;
     text-align: center;
     width: 58vw;
     margin-bottom: 1vh;
-}
+    animation: fadeInUp 1s ease-out;
+  }
+  
+
+
+
 
 
 .content {
@@ -29,5 +46,12 @@
     text-align: center;
     width: 40%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
 
+.content:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
 }
