@@ -10,32 +10,32 @@ const Contact = () => {
             </div>
             <div className='c-right'>
 
-            <form>
-                
-                <div className='name'>
-                <div className='fname'>
-                    <label>First Name:</label>
-                    <input type='text'></input>
-                </div>
-                <div className='fname'>
-                    <label>Last Name:</label>
-                    <input type='text'></input>
-                </div>
-                </div>
-                
-                <div className='fmail'>
-                    <label>Work Email</label>
-                    <input></input>
-                    <label>Message:</label>
-                    <textarea></textarea>
-                </div>
-              
-            </form>
+                <form>
+
+                    <div className='name'>
+                        <div className='fname'>
+                            <label>First Name:</label>
+                            <input type='text'></input>
+                        </div>
+                        <div className='fname'>
+                            <label>Last Name:</label>
+                            <input type='text'></input>
+                        </div>
+                    </div>
+
+                    <div className='fmail'>
+                        <label>Work Email</label>
+                        <input></input>
+                        <label>Message:</label>
+                        <textarea></textarea>
+                    </div>
+
+                </form>
 
             </div>
-       
 
-      
+
+
         </div>
     )
 }

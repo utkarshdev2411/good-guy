@@ -1,32 +1,24 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
 .contact {
   display: flex;
   margin-left: 8vw;
-  color: white;
-  margin-top: 6vh;
-  margin-bottom: 8vh;
+  color: #FFF;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  align-items: center;
+  margin-right: 8vw;
 
 }
 
 .c-left h1 {
-  font-size: 53px;
+  font-size: 8vh;
   font-weight: 400;
-  line-height: 85px;
   letter-spacing: 0.5px;
-
-  text-decoration: underline 1.5px;
-
+  text-decoration: underline 0.3vh;
 }
 
 .c-left h3 {
-  font-size: 21px;
+  font-size: 3.4vh;
   font-weight: 400;
-  line-height: 38px;
-  letter-spacing: 0em;
   text-align: left;
   width: 85%;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -34,68 +26,70 @@
 
 .c-left {
   width: 40%;
-  margin-top: 18vh;
+  padding: 2vw;
+  flex: 1;
 
 }
 
 .c-right {
-  width: 50%;
+  width: 60%;
+  font-size: 2.5vh;
+  flex: 1;
+  margin-left: 4vw;
 }
 
 
 .fname {
   display: flex;
   flex-direction: column;
-  width: 50%;
-  padding-right: 20px;
-  margin: 20px;
-  margin-left: -30px;
-  margin-bottom: 0;
+  flex: 1;
+
 
 }
 
 .name {
   display: flex;
-  width: 100%;
+
 
 }
 
 .fmail {
   display: flex;
   flex-direction: column;
-  justify-content: left;
-  width: 100%;
-  
+
+
 
 }
-.name input{
-  height: 34px;
-  width: 276px;}
 
-  
-.fmail input{
-  margin-top: 8px;
+.name input {
+  width: 18vw;
+
+
 }
-.fmail textarea{
-  margin-top: 8px;
-  height: 26vh;
-  width: 40vw;
+
+
+.fmail input {
+  width: 39vw;
+}
+
+.fmail textarea {
+
   border-radius: 6px;
+  width: 39vw;
+  height: 25vh;
 
 }
-.fmail label{
-  margin-top:28px;
-}
 
+.fmail label {}
 
-label{
-  font-family:'Times New Roman', Times, serif;
-  font-size: 19px;
+label {
+  font-family: 'Times New Roman', Times, serif;
   font-weight: 400;
+  margin: 2vh 0 0.5vh;
 }
 
-input{
-height: 34px;  
-width: 40vw;
-border-radius: 6px;
+input {
+  margin: 1vh 2vw 1vh 0;
+  border-radius: 6px;
+  height: 7vh;
 }
