@@ -7,7 +7,6 @@ const Navbar =()=>{
     return( <div className="navbar">
         <div className="n-left">
             <div className="logo"><img src={mylogo}></img></div>
-            <div className="name"><h2>Good-Guy</h2></div>
         </div>
         <div className="n-right">
             <ul>
