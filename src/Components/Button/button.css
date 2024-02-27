@@ -1,4 +1,4 @@
-button {
+/* button {
     width: 180px;
     height: 7vh;
     border-radius: 30px;
@@ -9,23 +9,50 @@ button {
     align-items: center;
     justify-content: center;
     font-weight: 550;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, transform 0.3s ease-in-out;
+
 }
+button:hover {
+    background-color: #4DD9C4;
+    color: #FFF;
+    /* Apply scale effect on hover */
 
 
-
+    button {
+        width: 180px;
+        height: 7vh;
+        border-radius: 30px;
+        background: #32D4D7;
+        margin-bottom: 10vh;
+        font-size: 2.5vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 550;
+        transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+        animation: pulse 1s infinite alternate;
+      }
+      
+      button:hover {
+        background-color: #2aafb1;
+        color: #FFF;
+      }
+      
+      @keyframes pulse {
+        0% {
+          transform: scale(1);
+        }
+        100% {
+          transform: scale(1.1);
+        }
+      }
+      
 
 .arrow {
     width: 5.8vh;
-    /* height: 33px; */
     opacity: 0.8;
     margin-left: 10px;
-    /* margin: auto; */
-    /* position: relative;
-    top: 6px; */
-    /* flex: 1; */
-    /* align-items: center; */
-    /* margin: 10px; */
-    /* justify-content: center; */
+   
 }
 
 .span{
