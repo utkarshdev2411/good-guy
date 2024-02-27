@@ -1,13 +1,14 @@
 .introduction {
     color: #FFFFFF;
-    
+
     display: flex;
     flex-direction: column;
-align-items: center;
-margin-top: 10vh;
+    align-items: center;
+    margin-top: 10vh;
 
 }
-.button{
+
+.button {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,10 +25,7 @@ margin-top: 10vh;
 
 
 .content {
-    /* /* font-family: Abhaya Libre Medium; */
     font-weight: 200;
     text-align: center;
     width: 40%;
-
-
 }
