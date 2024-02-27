@@ -1,11 +1,8 @@
 .introduction {
     color: #FFFFFF;
-    /* position: relative;
-    top: 100px;
-    left: 29%; */
+    
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
 align-items: center;
 margin-top: 10vh;
 
@@ -18,29 +15,19 @@ margin-top: 10vh;
 }
 
 .heading {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 54px;
+    font-size: 8vh;
     font-weight: 800;
-    line-height: 55px;
     text-align: center;
-    width: 50vw;
-    /* height: 171px; */
-    margin-bottom: 5px;
+    width: 58vw;
+    margin-bottom: 1vh;
 }
 
 
 .content {
-    font-family: Medium;
-    font-size: 19px;
-    font-weight: 500;
-    line-height: 22px;
-    letter-spacing: 0em;
+    /* /* font-family: Abhaya Libre Medium; */
+    font-weight: 200;
     text-align: center;
-    width: 534px;
-    /* height: 44px; */
-    width: 45%;
-    margin-top: 10px;
-    margin-bottom: 1vh;
+    width: 40%;
 
 
 }
