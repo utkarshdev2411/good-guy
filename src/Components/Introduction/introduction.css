@@ -18,27 +18,29 @@ margin-top: 10vh;
 }
 
 .heading {
-    font-family: Abhaya Libre ExtraBold;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 54px;
     font-weight: 800;
-    line-height: 50px;
+    line-height: 55px;
     text-align: center;
-    width: 600px;
-    height: 171px;
+    width: 50vw;
+    /* height: 171px; */
     margin-bottom: 5px;
 }
 
+
 .content {
-    font-family: Abhaya Libre Medium;
+    font-family: Medium;
     font-size: 19px;
     font-weight: 500;
     line-height: 22px;
     letter-spacing: 0em;
     text-align: center;
     width: 534px;
-    height: 44px;
-    width: 35%;
-    margin-top: 0;
+    /* height: 44px; */
+    width: 45%;
+    margin-top: 10px;
+    margin-bottom: 1vh;
 
 
 }
