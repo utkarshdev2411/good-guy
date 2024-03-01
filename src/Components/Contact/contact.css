@@ -101,3 +101,108 @@ input {
   border-radius: 6px;
   height: 7vh;
 }
+
+@media only screen and (max-width: 600px) {
+
+  .contact {
+    
+    flex-direction: column;
+    
+    margin-top: 0.5vh;
+  
+  }
+  
+  .c-left h1 {
+    font-size: 2vh;
+    text-decoration: underline 0.1vh;
+  }
+  
+  .c-left h3 {
+    font-size: 1.3vh;
+    font-weight: 400;
+    text-align: left;
+    width: 100%;
+    
+  }
+  
+  .c-left {
+    width: 100%;
+    
+  
+  }
+  
+  
+  .c-right {
+    width: 70%;
+    font-size: 1.5vh;
+    margin-left: 0vw;
+   
+    border-radius: 5px; 
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1); 
+  }
+  
+  form{
+    background-color: #2c284d5d; 
+     padding:0 0 3vh 4vw;
+     border-radius: 10px;
+  }
+  
+  
+  .fname {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .name {
+    display: flex;
+    
+  
+  
+  }
+  
+  .fmail {
+    display: flex;
+    flex-direction: column;
+  
+  
+  
+  }
+  
+  .name input {
+    width: 20vw;
+    height: 1.9vh;
+    border-radius: 5px;
+
+  
+  
+  }
+  
+  
+  .fmail input {
+    width: 47.7vw;
+    height: 2vh;
+    border-radius: 5px;
+
+  }
+  
+  .fmail textarea {
+  
+    border-radius: 6px;
+    width: 47.7vw;
+    height: 8vh;
+  
+  }
+  
+  
+  label {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    margin: 2vh 0 0.5vh;
+  }
+  
+  input {
+    margin: 0vh 0vw 0vh 0;
+    border-radius: 5px;
+  }
+
+}

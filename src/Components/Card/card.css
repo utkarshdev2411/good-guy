@@ -30,7 +30,7 @@
 }
 
 .c-content {
-    width: 45%;
+    width: 55%;
     
     margin: 0 4vh;
     justify-content: center;
@@ -47,7 +47,6 @@
 
 .image img {
     width: 100%;
-    /* border-radius: 5px; */
 }
 
 .c-button{
@@ -55,13 +54,70 @@
     height: 6vh;
     border-radius: 30px;
     background: #32D4D7;
-    /* margin-bottom: 10vh; */
     margin: 2.5vh 0;
     font-size: 2.5vh;
     display: flex;
     align-items: center;
     justify-content: center;
     font-weight: 550;
+}
+
+@media only screen and (max-width: 600px) {
+  
+    .card {
+        
+        width: 70%;
+        height: 20vh;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+       
+        font-size: 1.6vh;
+    }
+    .card h3 {
+        line-height: 1.2vh;
+        font-size: 1.1vh;
+        margin-bottom: -0.1vh;
+    
+    }
+
+    
+.c-content {
+    width: 75%;
+    
+    margin: 0 2vh;
+    margin-right: 1vh;
+  
+}
+
+.image {
+    width: 80%;
+    margin: 0 2vh;
+    margin-left: 0;
+    
+}
+
+.image img {
+    width: 100%;
+}
+
+.c-button{
+    width: 55px;
+    height: 2vh;
+    border-radius: 30px;
+    background: #32D4D7;
+    margin: 1vh 0;
+    font-size: 1vh;
+    
+}
+
+.card h1{
+    font-size: 1.5vh;
+}
+.card span{
+    font-size: 1vh;
+}
+    
+    
 }
 
 

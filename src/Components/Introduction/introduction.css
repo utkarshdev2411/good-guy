@@ -36,11 +36,6 @@
     animation: fadeInUp 1s ease-out;
   }
   
-
-
-
-
-
 .content {
     font-weight: 200;
     text-align: center;
@@ -57,6 +52,23 @@
 
 
 @media only screen and (max-width: 600px) {
+  .introduction {
+   
+    margin-top: 0.5vh;
+
+}
+
+.heading {
+  font-size: 4vh;
+  font-weight: 800;
+  width: 80vw;
+
+  margin: 5vh 0 0.2vh;
+}
+
+.content {
+ width: 55%;
  
+}
 }
 

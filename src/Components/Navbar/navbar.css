@@ -34,3 +34,15 @@ li {
 }
 
 .img {}
+@media only screen and (max-width: 600px) {
+    .n-right {
+        font-size: 10px;
+        font-weight: 600;
+        margin: auto;
+    }
+    li {
+        display: flex;
+        margin-right: 4vw;
+        font-size: 2vh;
+    }
+}
