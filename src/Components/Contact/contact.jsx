@@ -29,6 +29,7 @@ const Contact = () => {
                         <label>Message:</label>
                         <textarea></textarea>
                     </div>
+                    <button className='f-button'><a href='#section2'>Continue</a></button>
 
                 </form>
 

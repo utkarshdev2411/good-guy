@@ -11,10 +11,14 @@
     flex: 1;
 }
 
-a {
+.navbar a {
     text-decoration: none;
     color: #FFFFFF;
 
+}
+a{
+    text-decoration: none;
+    color: #000;
 }
 
 .n-right {

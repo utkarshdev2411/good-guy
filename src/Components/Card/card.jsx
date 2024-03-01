@@ -12,7 +12,7 @@ const Card = () => {
                     Hosting Setup, Optimization, Branding
                     and many more.</h3>
                 <span>Real time delivery</span>
-                <button className='c-button'>Continue</button>
+                <button className='c-button'><a href='#section2'>Continue</a></button>
 
             </div>
 
