@@ -1,7 +1,6 @@
 .swiper {
     margin: 0vh 4vw;
+    /* padding-inline-start: 4vw; */
+
   }
 
-.pagination{
-    background-color: red;
-}  

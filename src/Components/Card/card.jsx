@@ -4,8 +4,8 @@ import web from '../../image/web.jpeg'
 
 const Card = () => {
     return (
-        <div className='card'>
-            <div className='c-content    '>
+        <div className='card' id='section1' >
+            <div className='c-content    ' >
                 <h1>Web Development </h1>
 
                 <h3>Functional website, Responsive,
