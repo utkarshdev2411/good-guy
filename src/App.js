@@ -6,7 +6,7 @@ import Footer from './Components/Footer/footer';
 import Introduction from './Components/Introduction/introduction';
 import Line from './Components/Line/line';
 import Navbar from './Components/Navbar/navbar';
-import Services from './Components/Services/services';
+import Swiper from './Components/Swiper/swiper';
 
 
 function App() {
@@ -17,9 +17,9 @@ function App() {
      <Introduction/>
      <Button/>
      <Line/>
-     <Card/>
+<Swiper/>     
      <Contact/>
-     <Services/>
+     
         
      <Footer/>
     </div>

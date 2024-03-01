@@ -1,24 +1,7 @@
-/* button {
-    width: 180px;
-    height: 7vh;
-    border-radius: 30px;
-    background: #32D4D7;
-    margin-bottom: 10vh;
-    font-size: 2.5vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: 550;
-    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, transform 0.3s ease-in-out;
-
-}
-button:hover {
-    background-color: #4DD9C4;
-    color: #FFF;
-    /* Apply scale effect on hover */
 
 
-    button {
+
+    .button button {
         width: 180px;
         height: 7vh;
         border-radius: 30px;
