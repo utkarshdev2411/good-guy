@@ -1,45 +1,15 @@
-// import React from 'react'
-// import './services.css';
-// import { Swiper, SwiperSlide } from 'swiper/react';
 
-// import Card from '../Card/card';
-// const Services = () => {
-//   return (
-//     <div className='services'>
-//       <Swiper
-//         spaceBetween={1}
-//         slidesPerView={9}
-//         grabCursor={true}
-//         className="portfolio-slider"
-//       >
-//         <SwiperSlide><Card/> </SwiperSlide>
 
-//         <SwiperSlide><Card/> </SwiperSlide>
-
-//         <SwiperSlide><Card/>  </SwiperSlide>
-
-//         <SwiperSlide><Card/> </SwiperSlide>
-
-//         <SwiperSlide><Card/>  </SwiperSlide>
-
-//         <SwiperSlide><Card/> </SwiperSlide>
-
-//       </Swiper>
-
-//     </div>
-//   )
-// }
-
-// export default Services
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+import { Autoplay, Navigation, Pagination, Scrollbar, A11y, EffectCube, EffectCoverflow, EffectCreative, EffectFlip, EffectCards } from 'swiper/modules';
 
 
 import React from 'react';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-// Import Swiper styles
 import 'swiper/css';
+import '../Swiper/swiper.css'
+
 
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -49,22 +19,31 @@ import Card from '../Card/card';
 
 export default () => {
   return (
-    <Swiper
-          modules={[Navigation, Pagination,  A11y]}
 
-      spaceBetween={0}
+
+    <Swiper
+      modules={[Autoplay, Navigation, Pagination, Scrollbar, A11y, EffectCoverflow
+      ]} effect="coverflow"
+      rewind={true}
+
+      spaceBetween={1}
       slidesPerView={1}
+
       navigation
       pagination={{ clickable: true }}
-      scrollbar={{ draggable: true }}
-     
+      autoplay={{
+        delay: 4000,
+        disableOnInteraction: true,
+      }}
+
+
     >
-      <SwiperSlide><Card/></SwiperSlide>
-      <SwiperSlide><Card/></SwiperSlide>
-      <SwiperSlide><Card/></SwiperSlide>
-      <SwiperSlide><Card/></SwiperSlide>
-  
-      
+      <SwiperSlide><Card /></SwiperSlide>
+      <SwiperSlide><Card /></SwiperSlide>
+      <SwiperSlide><Card /></SwiperSlide>
+      <SwiperSlide><Card /></SwiperSlide>
+
+
     </Swiper>
   );
 };
