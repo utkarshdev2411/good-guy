@@ -21,7 +21,7 @@ const About = () => {
 
           <p> We’re an independent software company & digital marketing agency based in Raipur, Chhattisgarh. We have expertise in build, market & grow any online business.</p>
 
-          <p>The BlueBanyan team combines years of varied experience in online marketing, SEO, social media, lead generation, eCommerce marketing, content marketing, and conversion rate optimization. At BlueBanyan we are intensively solution-oriented. We have the most experienced and creative team to get insight solutions of each & every aspect. One of the keys to our success is our calmness and mental clarity to refuse to spend a single second worrying or becoming angry about something that you cannot change. Our only real antidote for worry is purposeful forward action.</p>
+          <p>The Good Guy team combines years of varied experience in online marketing, SEO, social media, lead generation, eCommerce marketing, content marketing, and conversion rate optimization. At Good Guy we are intensively solution-oriented. We have the most experienced and creative team to get insight solutions of each & every aspect. One of the keys to our success is our calmness and mental clarity to refuse to spend a single second worrying or becoming angry about something that you cannot change. Our only real antidote for worry is purposeful forward action.</p>
 
           <p>We work with a diverse client base including Nuvoco (formerly Lafarge Cement), Frankfinn, Lalluram.com, ZeroMileMark, Bonzelo and Government of Chhattisgarh. Each brand is unique, and each strategy custom-built with a data-first approach.</p>
 

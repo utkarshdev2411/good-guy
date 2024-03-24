@@ -48,3 +48,10 @@
 .icon-g{
   margin: 20px;
 }
+
+@media only screen and (max-width: 600px){
+  .vision{
+    display: flex;
+    flex-direction: column;
+  }
+}
