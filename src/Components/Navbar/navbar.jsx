@@ -10,7 +10,7 @@ const Navbar = () => {
         </div>
         <div className="n-right">
             <ul>
-                <li><a href="#">Home</a></li>
+                <li><a href="">Home</a></li>
                 <li><a href="#section1">Services</a></li><li>
                     <a href="#section2" >Contact</a></li>
 

@@ -1,4 +1,5 @@
 import './App.css';
+import About from './Components/About/about';
 import Button from './Components/Button/button';
 import Card from './Components/Card/card';
 import Contact from './Components/Contact/contact';
@@ -19,6 +20,7 @@ function App() {
      <Line/>
 <Swiper/>     
      <Contact/>
+     <About/>
      
         
      <Footer/>

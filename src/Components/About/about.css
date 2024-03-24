@@ -1,0 +1,50 @@
+.vision{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10vh 8vw;
+    color: #fff;
+    font-style: oblique;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+.about-g {
+  flex: 0.75;
+  background-color: white;
+  margin: 0 5vw;
+  color: rgb(40, 40, 40);
+  font-style: normal;
+  padding: 40px 20px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 400;
+  box-shadow: 0 2px 4px rgba(255, 255, 255, 0.237); /* Adding box-shadow */
+}
+
+.about-g p{
+  margin-top  : 5px;
+}
+.about-g h3{
+  margin: 0px;
+}
+
+.about-c{
+  flex: 1;
+  margin: 0 5vw 0 0;
+}
+
+.goal1{
+  display: flex;
+}
+.goal2{
+  display: flex;
+}
+.goal3{
+  display: flex;
+}
+
+.icon-g{
+  margin: 20px;
+}
