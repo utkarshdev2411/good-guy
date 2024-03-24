@@ -7,6 +7,7 @@ import Footer from './Components/Footer/footer';
 import Introduction from './Components/Introduction/introduction';
 import Line from './Components/Line/line';
 import Navbar from './Components/Navbar/navbar';
+import Results from './Components/Results/results';
 import Swiper from './Components/Swiper/swiper';
 
 
@@ -21,6 +22,7 @@ function App() {
 <Swiper/>     
      <Contact/>
      <About/>
+     <Results/>
      
         
      <Footer/>
