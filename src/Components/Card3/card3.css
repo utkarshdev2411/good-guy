@@ -1,0 +1,125 @@
+.card {
+    background: linear-gradient(180deg,
+            rgba(110, 71, 125, 0.41) 0%,
+            rgba(77, 58, 85, 0.885) 12%,
+            rgba(71, 52, 79, 0.599387) 40.4%,
+            #000000 100%);
+    width: 50%;
+    margin: auto;
+    height: 62vh;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+    border: 1px solid rgba(155, 77, 77, 0.505);
+    border-radius: 12px;
+    color: #fff;
+    display: flex;
+    font-size: 2.6vh;
+    align-items: center;
+}
+
+
+
+.card h3 {
+    color: rgba(169, 169, 169, 1);
+    line-height: 3.5vh;
+
+}
+
+.card span {
+    color: rgba(50, 212, 215, 1);
+}
+
+.c-content {
+    width: 55%;
+    
+    margin: 0 4vh;
+    justify-content: center;
+  
+}
+
+.image {
+    width: 50%;
+    margin: 0 4vh;
+    display: flex;
+   
+    justify-content: center;
+}
+
+.image img {
+    width: 100%;
+}
+
+.c-button{
+    width: 120px;
+    height: 6vh;
+    border-radius: 30px;
+    background: #32D4D7;
+    margin: 2.5vh 0;
+    font-size: 2.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 550;
+}
+
+@media only screen and (max-width: 600px) {
+  
+    .card {
+        
+        width: 75%;
+        height: 20vh;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+        /* margin-right: 2vw;
+        margin-left: 2vw; */
+       
+        font-size: 1.6vh;
+    }
+    .card h3 {
+        line-height: 1.2vh;
+        font-size: 1.2vh;
+        margin-bottom: -0.1vh;
+    
+    }
+
+    
+.c-content {
+    width: 100%;
+    
+    margin: 0 2vh;
+    margin-right: 1vh;
+  
+}
+
+.image {
+    width: 80%;
+    margin: 0 2vh;
+    margin-left: 0;
+    
+}
+
+.image img {
+    width: 100%;
+}
+
+.c-button{
+    width: 55px;
+    height: 2vh;
+    border-radius: 30px;
+    background: #32D4D7;
+    margin: 1vh 0;
+    font-size: 1vh;
+    
+}
+
+.card h1{
+    font-size: 1.9vh;
+}
+.card span{
+    font-size: 1vh;
+}
+    
+    
+}
+
+

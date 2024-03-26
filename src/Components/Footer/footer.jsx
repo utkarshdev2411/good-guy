@@ -19,7 +19,7 @@ const Footer = () => {
 
       <div className='contact-email'>
          <h3>Contact Us</h3>
-         <h4>utkarshdev2411@gmail.com</h4>
+         <h4>admin@goodguy.live</h4>
       </div>
 
     </div>
