@@ -1,7 +1,27 @@
-import React from 'react'
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import './contact.css'
 
 const Contact = () => {
+    const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm('service_vk8mvho', 'template_4mhcryr', form.current, {
+        publicKey: '89mY-CKrGBOfKj-9W',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+          alert("message sent!");
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
+  };
     return (
         <div className='contact ' id='section2'>
             <div className='c-left'><h1> Contact Us </h1>
@@ -10,28 +30,29 @@ const Contact = () => {
             </div>
             <div className='c-right'>
 
-                <form action="mailto:admin@goodguy.live method="post" ">
+                <form ref={form} onSubmit={sendEmail}>
 
                     <div className='name'>
-                        <div className='fname'>
+                        <div className='fname' >
                             <label>First Name:</label>
-                            <input type='text'></input>
+                            <input type='text' name="fname"></input>
                         </div>
-                        <div className='fname'>
+                        <div className='fname' >
                             <label>Last Name:</label>
-                            <input type='text'></input>
+                            <input type='text' name="lname"></input>
                         </div>
                     </div>
 
                     <div className='fmail'>
                         <label>Work Email</label>
-                        <input></input>
+                        <input name="user_email"></input>
                         <label>Message:</label>
-                        <textarea></textarea>
+                        <textarea name="message" ></textarea>
                     </div>
-                    <button className='f-button'><a href=''>Continue</a></button>
+                    <input className='f-button' type="submit" value="Send" ></input>
 
                 </form>
+              
 
             </div>
 
