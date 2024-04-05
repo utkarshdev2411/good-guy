@@ -10,7 +10,7 @@ const Contact = () => {
             </div>
             <div className='c-right'>
 
-                <form>
+                <form action="mailto:admin@goodguy.live method="post" ">
 
                     <div className='name'>
                         <div className='fname'>
@@ -29,7 +29,7 @@ const Contact = () => {
                         <label>Message:</label>
                         <textarea></textarea>
                     </div>
-                    <button className='f-button'><a href='#section2'>Continue</a></button>
+                    <button className='f-button'><a href=''>Continue</a></button>
 
                 </form>
 
